@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #4D533C;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+/* PC */
+@media (max-width: 1087px) {
+    .__container {
+        max-width: 970px;
+    }
+}
+/* TABLET */
+@media (max-width: 991.98px) {
+    .__container {
+        max-width: 750px;
+    }
+}
+/* MOBILE */
+@media (max-width: 767.98px) {
+    .__container {
+        max-width: none;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 479.98px) {
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+
+/* HEADER */
+.header__container {
+
+}
+
+.header__logo {
+
+}
+
+.burger-menu {
+
+}
+
+.burger-line {
+
+}
+/* ========================================================= */
